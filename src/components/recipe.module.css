@@ -1,0 +1,42 @@
+
+.title{
+    font-family: 'Sriracha', cursive;
+    font-size: 20px;
+}
+
+.healthLabels{
+    font-size: 12px;
+    max-width:  50%;
+    text-align: center;
+}
+.linkButtons a{
+    font-size: 9px;
+    display: inline-block;
+}
+.linkButtons a:link,a:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.linkButtons a:hover, a:active{
+    background-color: red;
+}
+.recipe{
+    border: 0.1px solid rgb(233, 230, 230);
+    /* box-shadow: 0px 5px 20px black; */
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background: white; */
+    align-items: center;
+    /* width: 25%; */
+    min-width: 30%;
+}
+.image{
+    border-radius: 1%;
+    width: 200px;
+    height: 200px;
+}

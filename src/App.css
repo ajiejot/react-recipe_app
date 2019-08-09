@@ -1,0 +1,45 @@
+.App {
+  background-color: #f7fafc;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 30%;
+  border:none;
+  padding: 4px;
+}
+.search-button{
+  cursor: pointer;
+  font-size: 12px;
+  display: inline-block;
+  background-color: #469b63;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  border: None;
+}
+.search-button:hover{
+  background-color: green;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

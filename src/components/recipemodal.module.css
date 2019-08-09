@@ -1,0 +1,51 @@
+.modal{
+    /* font-family: 'Sriracha', cursive; */
+    margin: 15px;
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.modalImage{
+    width:20%;
+    min-width: 15%;
+}
+    @media handheld and (max-width: 500px),
+    screen and (max-device-width: 500px),
+    screen and (max-width: 600px) 
+    {
+        .modalImage{ width: 45% }
+    }
+
+.modalDetail{
+
+    margin: 10px 20px;
+    font-size: 13px;
+    display: inline-block;
+    min-width: 20%;
+}
+
+.header h1{
+    margin: 0;
+    font-size:25px;
+}
+
+.linkButtons a{
+    font-size: 9px;
+    display: inline-block;
+}
+.linkButtons a:link,a:visited{
+    background-color: #469b63;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+.linkButtons a:hover, a:active{
+    background-color: green;
+}
