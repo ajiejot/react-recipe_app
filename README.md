@@ -2,4 +2,4 @@
 
 Basic Recipe App using React.js with REST API
 
-Demo here: https://dreamy-visvesvaraya-b876ae.netlify.com/
+Demo here: https://reactrecipeappapi.netlify.com/
